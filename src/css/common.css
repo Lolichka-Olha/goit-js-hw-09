@@ -17,6 +17,26 @@ img {
   max-width: 100%;
 }
 
+.primary__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10%;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4e4242;
+  color: #fafafa;
+}
+
 .timer {
   display: flex;
   justify-content: space-between;
